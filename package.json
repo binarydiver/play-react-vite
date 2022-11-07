@@ -1,0 +1,27 @@
+{
+  "name": "play-react-vite",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jason Park <binarydiver@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binarydiver/dotfiles.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
